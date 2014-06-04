@@ -1,2 +1,2 @@
-config.rurequire './er_portfolio_app'
+config.require './er_portfolio_app'
 run Sinatra::Application
