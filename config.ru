@@ -9,6 +9,6 @@ use Rack::Static,
       'Content-Type'  => 'text/html', 
       'Cache-Control' => 'public, max-age=86400' 
     },
-    File.open('views/layout.erb', File::RDONLY)
+    File.open('views/index.erb', File::RDONLY)
   ]
 }
